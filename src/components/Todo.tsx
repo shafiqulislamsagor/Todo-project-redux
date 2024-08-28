@@ -1,5 +1,4 @@
 import { OctagonX } from 'lucide-react'
-import React from 'react'
 
 export default function Todo() {
   return (
