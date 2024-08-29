@@ -1,6 +1,6 @@
 import { COLORCHANGE, STATUSCHANGE } from "./actionTypes"
 
-export const colorSelected = (color:string, changeType:boolean) => {
+export const colorSelected = (color:string, changeType:string) => {
     return {
         type: COLORCHANGE,
         payload: {
